@@ -1,5 +1,4 @@
-package Command;
+package Interpretateur;
 
 public interface Command {
-
 }

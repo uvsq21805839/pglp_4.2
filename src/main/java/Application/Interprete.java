@@ -11,7 +11,7 @@ import Interpretateur.Undo;
 public class Interprete {
 
  
-public final class Interpreteur {
+public final static class Interpreteur {
 	 
 	private Map<String, InterGeneric> commands;
 	 
@@ -36,7 +36,7 @@ public final class Interpreteur {
 		}
 	}
 	
-	public Interpreteur init(final Undo u) {
+	public static  Interpreteur init(final Undo u) {
 		Interpreteur i = new Interpreteur();
 		i.addCommand("undo", u);
 		i.addCommand("quit", new Quit());
