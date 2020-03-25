@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import Interpretateur.InterGeneric;
-import Interpretateur.Quit;
+import Interpretateur.Exit;
 import Interpretateur.Undo;
 
 
@@ -29,7 +29,7 @@ public final static class Interpreteur {
 			try {
 				commands.get(name).apply();
 			} catch (Exception e) {
-				System.err.println("la commande n'existe pas");
+				System.err.println("la case est vide");
 			}
 		} else {
 			throw new Exception();
@@ -39,7 +39,7 @@ public final static class Interpreteur {
 	public static  Interpreteur init(final Undo u) {
 		Interpreteur i = new Interpreteur();
 		i.addCommand("undo", u);
-		i.addCommand("quit", new Quit());
+		i.addCommand("exit", new Exit());
 		return i;
 	}
 }

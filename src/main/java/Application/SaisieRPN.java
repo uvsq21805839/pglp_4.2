@@ -54,12 +54,11 @@ public class SaisieRPN {
 						interprete.executeCommand(line);
 					} catch (Exception i) {
 						System.err.println(
-						"Commande non autorisée/"
-						+ "reconnue");
+						"cette commande n'est pas reconnue");
 					}
 				}
 			}
-			if (line.equalsIgnoreCase("quit")) {
+			if (line.equalsIgnoreCase("exit")) {
 				continuer = false;
 			} else {
 				System.out.print(

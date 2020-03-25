@@ -41,7 +41,7 @@ public final class MoteurRPN {
 	public boolean executeCommand(final String name) throws Exception {
 		if (operations.containsKey(name)) {
 			if (pile.size() < 2) {
-				System.err.println("nombre d'opérandes "
+				System.err.println("nbre d'opérandes "
 						+ "dans l'expression invalide");
 				return false;
 			}
