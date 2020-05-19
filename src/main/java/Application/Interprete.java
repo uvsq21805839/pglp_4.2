@@ -39,7 +39,7 @@ public final static class Interpreteur {
 	public static  Interpreteur init(final Undo u) {
 		Interpreteur i = new Interpreteur();
 		i.addCommand("undo", u);
-		i.addCommand("exit", new Exit());
+		i.addCommand("exit", new Exit()) ;
 		return i;
 	}
 }

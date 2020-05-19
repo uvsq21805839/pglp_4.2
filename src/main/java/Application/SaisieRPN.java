@@ -54,7 +54,7 @@ public class SaisieRPN {
 						interprete.executeCommand(line);
 					} catch (Exception i) {
 						System.err.println(
-						"cette commande n'est pas reconnue");
+						"cette commande n'est pas reconnue reverifi ton syntax svp merci");
 					}
 				}
 			}

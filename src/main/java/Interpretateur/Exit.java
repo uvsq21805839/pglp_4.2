@@ -14,7 +14,7 @@ public class Exit implements InterGeneric {
 	 * affiche que l'utilisateur a quitté l appli.
 	 */
 	public void apply() {
-		System.out.println("Vous avez quitté le programme");
+		System.out.println("Vous avez quitté le programme \n" + " see you!");
 	}
 
 }
