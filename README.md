@@ -38,6 +38,8 @@ Exécution de l'application:
 
 - Exemple: l’expression « 2 × (3 + 4) »  s’écrira « 234 + × »
 
+- Chaque saisie se terminera par entrée
+
 - Cette calculatrice supporter les opérations de base (+, -, *, /) sur des nombres entiers
 
 - Chaque saisie se terminer par la touche entrée
