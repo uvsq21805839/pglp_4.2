@@ -29,12 +29,18 @@ RPN. La classe java.util.Scanner permet de gérer les saisies.
 4. Implémenter le programme principal CalculatriceRPN.
 
 
-Exécution de l'application:
-notre class main est :CalculatriceRPN
 
-Mode d'utilisation : 
--Exemple: l’expression « 2 × (3 + 4) »  s’écrira « 234 + × »
--Cette calculatrice supporter les opérations de base (+, -, *, /) sur des nombres entiers
--Chaque saisie se terminer par la touche entrée
+Exécution de l'application:
+* notre class main est :CalculatriceRPN
+
+* Mode d'utilisation : 
+
+- Exemple: l’expression « 2 × (3 + 4) »  s’écrira « 234 + × »
+
+- Cette calculatrice supporter les opérations de base (+, -, *, /) sur des nombres entiers
+
+- Chaque saisie se terminer par la touche entrée
+
 - "undo" pour annuler la saisie précédente
+
 - "exit" pour sortir(quitter).
