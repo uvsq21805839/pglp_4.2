@@ -28,6 +28,7 @@ Vous utiliserez le pattern Command pour implémenter les actions.
 RPN. La classe java.util.Scanner permet de gérer les saisies.
 4. Implémenter le programme principal CalculatriceRPN.
 
+------------------------------------------------------------------------------------------------------------------------------
 
 
 Exécution de l'application:
